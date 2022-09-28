@@ -1,91 +1,88 @@
 <p align="center">
-   <img src="./src/assets/logo.svg" alt="Dt money" width="350"/>
+   <img src="./src/assets/logo.svg" alt="Dt money" width="50%"/>
 </p>
 
-<p align="center">
+<div align="center">
  <a href="#projeto">Projeto</a> •
  <a href="#tecnologias">Tecnologias Utilizadas</a> •
  <a href="#execucao">Como Executar</a> •
- <a href="#documentacao">Documentação</a> •
+ <a href="#construcao">Em Construção</a> •
  <a href="#licenca">Licença</a> •
  <a href="#autor">Autor</a> •
- <a href="#contato">Contato</a> 
-</p>
+ <a href="#contato">Contato</a>
+</div>
 
---------------------------- 
+---
 
-# :fire: <Strong> Obrigado por visualizar este repositório </Strong> <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="28px" alt="hi">
+# :fire: Obrigado por visualizar este repositório <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="38px" alt="hi">
 
-<p align="justify"> Primeiramente, olá me chamo Gabriel Kenji Poli Ozaki, sou um estudante de Ciência da Computação e estou querendo atuar na área de Desenvolvimento Web como Desenvolvedor Front-end. </p>
+<p align="justify"> Olá, primeiramente me chamo Gabriel Kenji Poli Ozaki, tenho 21 anos e trabalho na área de Desenvolvedor Front-end. </p>
+
+<p align="justify"> Para mais informações sobre mim, acesse o README em meu perfil do GITHUB.</p>
 
 ## :computer: <strong id="projeto">Sobre o Projeto </strong>
 
 <img src="https://thumbs.gfycat.com/SoupyWastefulAmethystinepython-size_restricted.gif"  width="100%"></img>
 
-<p align="justify"><strong>Dt money</strong> é um app voltado ao <strong>controle financeiro</strong> permitindo que o usuário faça uma <strong>inserção</strong> de <strong>entrada</strong> ou <strong>saida</strong> de sua renda.</p>
+<p align="justify">O <strong>Dt money</strong> é uma aplicação voltada ao <strong>controle financeiro</strong> permitindo que o usuário mantenha o controle sobre sua renda.</p>
 
-### :pushpin: Funcionabilidades
+<p align="justify">Essa aplicação Rocketshoes foi desenvolvida, durante as aulas feitas no Bootcamp Ignite na trilha de ReactJS.</p>
+
+### :pushpin: Funcionalidades
 
 - [x] Inserir uma entrada ou saida financeira
-- [x] Calcular o total entre as entradas e saidas inseridas
-- [x] Apresentar o extrato financeiro do usuário
+- [x] Calcular o valor total entre as entradas e saidas inseridas
+- [x] Somar o total de entradas e total de saidas cadastradas
+- [x] Apresentar o extrato financeiro
 
 ### :triangular_ruler: Layout
 
-<p>Você pode visualizar o layout do projeto através <a href="https://www.figma.com/file/0xmu9mj2TJYoIOubBFWsk5/dtmoney-Ignite">desse link</a>. É necessário ter conta no <a href="https://www.figma.com/">Figma</a> para acessá-lo.</p>
-
-<p align="justify">Essa aplicação Dt money foi desenvolvida, através do Bootcamp Ignite organizada pela empresa Rocketseat e mentoreado pelo Diego Fernandes na trilha de ReactJS.</p>
+<p>Você pode visualizar o layout do projeto através desse <a href="https://www.figma.com/file/0xmu9mj2TJYoIOubBFWsk5/dtmoney-Ignite">link</a>. É necessário ter conta no <a href="https://www.figma.com/">Figma</a> para acessá-lo.</p>
 
 ## :rocket: <Strong id="tecnologias"> Tecnologias Utilizadas </Strong>
 
-<p align="justify"> Este projeto foi desenvolvido utilizando as seguintes tecnologias: </p>
-
-[![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](https://reactjs.org/) [![Typescript Badge](https://img.shields.io/badge/-Typescript-007acc?style=for-the-badge&labelColor=black&logo=typescript&logoColor=007acc)](https://www.typescriptlang.org/)
+[![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](https://reactjs.org/) [![Typescript Badge](https://img.shields.io/badge/-Typescript-007acc?style=for-the-badge&labelColor=black&logo=typescript&logoColor=007acc)](https://www.typescriptlang.org/) [![Styled Components Badge](https://img.shields.io/badge/-Styled_Components-DB7093?style=for-the-badge&labelColor=black&logo=styledComponents)](https://styled-components.com) [![Axios Badge](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&labelColor=black&logo=axios)](https://axios-http.com/ptbr/)
 
 <ul>
-  <li><a href="https://pt-br.reactjs.org/docs/hooks-intro.html" rel="nofollow">React Hooks</a></li>
   <li><a href="https://miragejs.com/" rel="nofollow">MirageJS</a></li>
-  <li><a href="https://github.com/axios/axios" rel="nofollow">Axios</a></li>
   <li><a href="https://polished.js.org/docs/" rel="nofollow">Polished</a></li>
 </ul>
 
 ## :runner: <strong id="execucao"> Como executar o projeto </strong>
 
-[![Yarn Badge](https://img.shields.io/badge/yarn-1.22.10-brightgreen)](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
+[![Yarn Badge](https://img.shields.io/badge/yarn-1.22.19-brightgreen)](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
 
 ```bash
-# Fazer o clone do Repositorio.
->> git clone https://github.com/WD-GabrielKenji/Application-Dtmoney.git
+# Faça o clone deste repositório:
+>> git clone https://github.com/WD-GabrielKenji/IgniteReactJs-Dtmoney.git
+>> cd IgniteReactJs-Dtmoney >> code .
 ```
-
 ```bash
-# Necessario baixar as dependencias necessárias e iniciar o servidor de desenvolvimento:
+# Para executar a aplicaçao é necessário:
 
-# Instalar as dependencias: 
+# Instalar as dependências: 
 >> yarn
-
 # Iniciar o servidor de desenvolvimento:
 >> yarn start
 ```
 
-<pre>
-Agora basta acessar <a href="http://localhost:3000" rel="nofollow"><code>localhost:3000</code></a> no seu Browser e usufruir da aplicação!
-</pre>
+<pre>Agora basta acessar <a href="http://localhost:3000" rel="nofollow"><code>localhost:3000</code></a> em seu Browser, e usufruir da aplicação.</pre>
 
-## :book: <strong id="documentacao"> Detalhes aprofundados sobre o projeto </strong>
+## :construction: <strong id="construcao"> Em construção </strong>
 
-<details>
-<summary>
-  Documentação com os detalhes do projeto...
-</summary>
+Funcionalidades que ainda estão sendo preparadas para serem incrementadas:
 
-<p align="justify"> *Em construção...* </p>
-
-</details>
+<ul>
+  <li> Melhorar a Responsividade </li>
+  <li> Tema Dark </li>
+  <li> Adaptação para Mobile </li>
+  <li> Sistema de Login </li>
+  <li> Armazenar dados no FaunaDB </li>
+</ul>
 
 ## :closed_book: <strong id="licenca"> Licença </strong>
 
-<img alt="GitHub" src="https://img.shields.io/github/license/facebook/react"/>
+<img alt="Icone da licença MIT" src="https://img.shields.io/github/license/facebook/react" />
 
 Esse projeto esta sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
